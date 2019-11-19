@@ -1,6 +1,6 @@
 {
   "name": "artberri-nvm",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "artberri",
   "summary": "Puppet Module to install Node.js with Node Version Manager (NVM)",
   "description": "A puppet module to install (multiple versions of) Node.js with NVM (Node Version Manager).",
@@ -53,14 +53,16 @@
       "operatingsystemrelease": [
         "10.04",
         "12.04",
-        "14.04"
+        "14.04",
+        "16.04",
+        "18.04"
       ]
     }
   ],
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
-      "version_requirement": ">=3.2.0 <5.0.0"
+      "version_requirement": ">=3.2.0"
     }
   ],
   "requirements": [
@@ -70,7 +72,7 @@
     },
     {
       "name": "puppet",
-      "version_requirement": ">=2.7.20 <5.0.0"
+      "version_requirement": ">=2.7.20"
     }
   ]
 }
